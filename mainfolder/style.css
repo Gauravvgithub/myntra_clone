@@ -1,0 +1,188 @@
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.mainlogo{
+    height: 6vh;
+}
+.logodiv{
+    width: 6vw;
+    margin-top: 25px;
+    margin-left: 60px;
+    display: flex;
+}
+.listdiv{
+    margin: 0px;
+    display: inline-block;
+}
+.lia{
+    color: black;
+    text-decoration: none;
+    
+    &:hover{
+        color: black;
+    }
+
+}
+ul{
+    width: fit-content;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.4vw;
+    list-style: none;
+    font-weight: bold;
+}
+li{
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 0.91rem;
+    &:hover{
+       color: transparent; 
+    }
+
+}
+
+sup{
+    color: red;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: xx-small;
+}
+.mainsearch{
+    margin-left: 60px;
+    margin-top: 15px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.searchdiv{
+    margin-top: 6px;
+    width: 45px;
+    height: fit-content;
+    padding: 0px;
+    display: inline-block;
+    background-color: blue;
+}
+.img1{
+    width: 50px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: none;
+    box-sizing: border-box;
+}
+.searchinput{
+    margin-top: 6px;
+    width: 28vw;
+    height: 50px;
+    background-color: whitesmoke;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+}
+.sidelogo{
+    display: flex;
+    flex-direction: row;
+}
+.profileimg{
+    margin: 20px;
+    margin-right: 13vw;
+    position: fixed;
+    right: 0;
+}
+.txtprofile{
+    margin: 20px;
+    margin-top: 45px;
+    margin-right: 12vw;
+    margin-bottom: 0vw;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    position: fixed;
+    right: 0;
+}
+.wishlistimg{
+    margin: 20px;
+    margin-right: 9vw;
+    position: fixed;
+    right: 0;
+}
+.txtwishlist{
+    margin: 20px;
+    margin-top: 45px;
+    margin-right: 8vw;
+    margin-bottom: 0vw;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    position: fixed;
+    right: 0;
+}
+.bagimg{
+    margin: 20px;
+    margin-right: 5vw;
+    position: fixed;
+    right: 0;
+}
+.txtbag{
+    margin: 20px;
+    margin-top: 45px;
+    margin-right: 4.8vw;
+    margin-bottom: 0vw;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    position: fixed;
+    right: 0;
+}
+.sale{
+    padding-top: 100px;
+}
+.homesilder{
+    padding-top: 20px;
+}
+.head2{
+    margin-top: 30px;
+}
+.h22{
+    display: inline-block;
+    margin-left: 30px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 650;
+    letter-spacing: 5px;
+}
+.maincard{
+    width: fit-content;
+    display: flex;
+}
+.sideposition{
+    margin-top: 150px;
+    margin-right: -105px;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    background-color: rgb(80, 79, 79);
+    rotate: 270deg;
+    z-index: 2;
+}
+.flat400{
+    width: 18vw;
+    margin: 0px;
+    color: white;
+    padding: 5px;
+    padding-right: 60px;
+    text-align: center;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: Large;
+    font-weight: bolder;
+}
+.shopcr{
+    width: 5vw;
+}
+
